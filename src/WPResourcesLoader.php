@@ -1,5 +1,8 @@
 <?php
-class Loader {
+
+namespace WPResourcesLoader;
+
+class WPResourcesLoader {
   private $theme_uri;
   private $theme_dir;
   function __construct($theme_uri, $theme_dir) {
